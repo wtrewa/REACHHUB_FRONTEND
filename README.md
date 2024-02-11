@@ -1,5 +1,7 @@
 # REACHHUB_FRONTEND
 Diploy Link: https://65c8d69ea4e7cf244d56c665--jazzy-paprenjak-ca732f.netlify.app/
+
+# if you want to login on application please read backend and but you can also login with psaruabh574@gmail.com and password `1234`
 # Frontend Requirements
 
 ## 1. Dashboard Development:
