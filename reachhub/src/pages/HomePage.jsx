@@ -46,11 +46,11 @@ const Home = ()=>{
      const classicalRating = ratingHistory?.find(entry => entry.name === 'Classical');
       data = classicalRating.points.slice(-30)
    
-     return <Tr>
+     return <Tr key={player._id}>
      <Td>{player.username}</Td>
      <Td>Classical</Td>
      {data?.map(el=>{
-     return  <Td>Date:{ el.date} ---- Rating:{el.rating}</Td>
+     return  <Td key={el.data}>Date:{ el.date} ---- Rating:{el.rating}</Td>
      })}
    </Tr>
     })}
